@@ -22,9 +22,9 @@ const foods = [
   },
   {
     id: '4',
-    name: 'Fish',
-    ingredients: 'Gravy/Fry',
-    price: '200/250',
+    name: 'Pizza',
+    ingredients: 'Cheese/Chicken',
+    price: '350/450',
     image: require('../assets/sushiMakizushi.png'),
   },
 ];
