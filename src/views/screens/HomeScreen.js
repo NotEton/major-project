@@ -107,9 +107,7 @@ const HomeScreen = ({navigation}) => {
         <View>
           <View style={{flexDirection: 'row'}}>
             <Text style={{fontSize: 50>Bhansha</Text>
-            <Text style={{fontSize: 28, fontWeight: 'bold', marginLeft: 10}}>
-              
-            </Text>
+            
           </View>
           <Text style={{marginTop: 5, fontSize: 22, color: COLORS.grey}}>
             What do you want today
