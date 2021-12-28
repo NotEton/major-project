@@ -4,14 +4,14 @@ const foods = [
     name: 'Chowmein ',
     ingredients: 'Veg/Chicken',
     price: '100/150',
-    image: require('../assets/meatPizza.png'),
+    image: require('../assets/chowmein.png'),
   },
   {
     id: '2',
     name: 'Mo:Mo',
     ingredients: 'Veg/Chicken',
     price: '100/150',
-    image: require('../assets/cheesePizza.png'),
+    image: require('../assets/momo.png'),
   },
   {
     id: '3',
@@ -25,7 +25,7 @@ const foods = [
     name: 'Pizza',
     ingredients: 'Cheese/Chicken',
     price: '350/450',
-    image: require('../assets/sushiMakizushi.png'),
+    image: require('../assets/pizza.png'),
   },
 ];
 
