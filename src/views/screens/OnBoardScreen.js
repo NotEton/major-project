@@ -14,7 +14,7 @@ const OnBoardScreen = ({navigation}) => {
             resizeMode: 'contain',
             top: -150,
           }}
-          source={require('../../assets/onboardImage.png')}
+          source={require('../../assets/onboard.png')}
         />
       </View>
       <View style={style.textContainer}>
