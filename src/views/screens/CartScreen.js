@@ -22,7 +22,7 @@ const CartScreen = ({navigation}) => {
           <Text style={{fontSize: 13, color: COLORS.grey}}>
             {item.ingredients}
           </Text>
-          <Text style={{fontSize: 17, fontWeight: 'bold'}}>${item.price}</Text>
+          <Text style={{fontSize: 17, fontWeight: 'bold'}}>Rs.{item.price}</Text>
         </View>
         <View style={{marginRight: 20, alignItems: 'center'}}>
           <Text style={{fontWeight: 'bold', fontSize: 18}}>3</Text>
@@ -57,7 +57,7 @@ const CartScreen = ({navigation}) => {
               <Text style={{fontSize: 18, fontWeight: 'bold'}}>
                 Total Price
               </Text>
-              <Text style={{fontSize: 18, fontWeight: 'bold'}}>$50</Text>
+              <Text style={{fontSize: 18, fontWeight: 'bold'}}>Rs.1650</Text>
             </View>
             <View style={{marginHorizontal: 30}}>
               <PrimaryButton title="CHECKOUT" />
